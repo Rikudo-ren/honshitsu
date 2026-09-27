@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#3E4A3C">
+<title>✝本質✝ OVERFLOW ―偏差値60の教室から―</title>
+<link rel="stylesheet" href="styles/main.css">
+</head>
+<body data-state="BOOT">
+<div id="boot-error" class="hidden"></div>
+
+<div id="app">
+  <div id="play-area">
+    <canvas id="bg-canvas"></canvas>
+    <div id="card-layer"></div>
+    <canvas id="fx-canvas"></canvas>
+    <div id="fx-layer"></div>
+    <div id="shockwave"><i class="w1"></i><i class="w2"></i><i class="w3"></i></div>
+    <div id="tachie-stage"></div>
+    <div id="skill-bubble"></div>
+    <div id="slash-trail"></div>
+
+    <!-- HUD -->
+    <div id="hud" class="hidden">
+      <div id="hud-top">
+        <div id="hud-hensachi"><span class="hud-label">偏差値</span><span id="hensachi-num">60.0</span></div>
+        <div id="hud-time"><span id="time-left">60.00</span></div>
+        <div id="hud-combo"><span class="hud-label">コンボ</span><span id="combo-num">0</span></div>
+      </div>
+      <div id="hud-sub">
+        <span id="mult-num">×1.0</span>
+        <span id="score-num">0</span>
+      </div>
+    </div>
+
+    <!-- 操作 -->
+    <div id="controls" class="hidden">
+      <button id="btn-kizamu" class="ctl-btn kizamu">✝<span>刻む(Z/←)</span></button>
+      <button id="btn-overflow" class="ctl-btn overflow">OVERFLOW 0%</button>
+      <button id="btn-hah" class="ctl-btn hah">は？<span>弾く(X/→)</span></button>
+    </div>
+    <div id="overflow-bar"><div id="overflow-fill"></div></div>
+
+    <!-- タイトル -->
+    <div id="title" class="screen">
+      <div class="title-logo">
+        <span class="t-sub">偏差値60の教室から</span>
+        <span class="t-main"><em>✝</em><em>本</em><em>質</em><em>✝</em></span>
+        <span class="t-over">OVERFLOW</span>
+      </div>
+      <div class="title-best">自己ベスト 偏差値<span id="best-hensachi">60.0</span>（<span id="best-score">0</span>点）</div>
+      <div class="title-tap">TAP TO 漏出開始</div>
+      <div class="title-btns">
+        <button id="btn-start" class="big-btn">漏出開始！</button>
+        <button id="btn-daily" class="mid-btn">デイリーシード</button>
+      </div>
+      <div id="daily-seed" class="daily-seed"></div>
+      <div id="mission-list" class="mission-list"></div>
+      <button id="btn-collection-title" class="link-btn">語録コレクション</button>
+    </div>
+
+    <!-- チュートリアル -->
+    <div id="tutorial" class="screen hidden"></div>
+
+    <!-- カウントダウン -->
+    <div id="countdown" class="screen hidden"></div>
+
+    <!-- リザルト -->
+    <div id="result" class="screen hidden">
+      <div id="result-cine"></div>
+      <div id="result-panel" class="hidden">
+        <div class="res-hensachi-row"><span class="hud-label">偏差値</span><span id="res-hensachi">60.0</span></div>
+        <div id="res-rank" class="res-rank">非✝本質✝</div>
+        <div id="res-best" class="res-best hidden">自己ベスト更新✝</div>
+        <div class="res-detail"><span>スコア <b id="res-score">0</b></span><span>最大コンボ <b id="res-combo">0</b></span><span>誤爆 <b id="res-miss">0</b></span></div>
+        <div id="res-unlock"></div>
+        <div class="res-bbs"><div id="res-text"></div><button id="btn-copy" class="mid-btn">結果をコピー</button></div>
+        <div class="res-btns">
+          <button id="btn-retry" class="big-btn">もう一回</button>
+          <button id="btn-collection" class="mid-btn">語録コレクション</button>
+          <button id="btn-totitle" class="link-btn">タイトルへ</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- コレクション -->
+    <div id="collection" class="screen hidden">
+      <div class="col-head">
+        <button id="tab-quotes" class="tab active">語録</button>
+        <button id="tab-chars" class="tab">キャラ</button>
+        <button id="btn-close-collection" class="tab close">×</button>
+      </div>
+      <div id="collection-list"></div>
+    </div>
+
+    <!-- ミュート -->
+    <button id="btn-mute" class="mute">🔊</button>
+
+    <!-- デバッグ -->
+    <div id="debug-panel" class="hidden">
+      <div>fps:<span id="dbg-fps">60</span> <span id="dbg-state"></span></div>
+      <div class="dbg-btns">
+        <button id="dbg-fov">hitbox</button>
+        <button id="dbg-time">+10s</button>
+        <button id="dbg-overflow">OF満タン</button>
+        <button id="dbg-max">MAX点</button>
+        <button id="dbg-spawn">spawn</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
