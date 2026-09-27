@@ -1,0 +1,240 @@
+[
+  {
+    "id": "ryoma",
+    "name": "両馬二郎",
+    "displayName": "両馬 二郎",
+    "icon": "icon/ryoma.jpg",
+    "tachi": "chr_ryoma_01_tsuujou_no_bg.png",
+    "color": "#F2C14E",
+    "quote": "これまじ✝本質✝",
+    "skill": {
+      "name": "✝降臨",
+      "desc": "コンボ20で自動✝付与",
+      "trigger": "combo20"
+    }
+  },
+  {
+    "id": "mie",
+    "name": "三重県臣",
+    "displayName": "三重 県臣",
+    "icon": "icon/mie.jpg",
+    "tachi": "chr_mie_01_reishou_no_bg.png",
+    "color": "#5B7A9B",
+    "quote": "は？",
+    "skill": {
+      "name": "やめろガード",
+      "desc": "は？5連続で誤爆1回無効",
+      "trigger": "huh5"
+    }
+  },
+  {
+    "id": "rei",
+    "name": "数理零",
+    "displayName": "数理 零",
+    "icon": "icon/rei.jpg",
+    "tachi": "processed_chr_rei_01_suzushii.png",
+    "color": "#A78BFA",
+    "quote": "面白い",
+    "skill": {
+      "name": "零領域",
+      "desc": "15秒ノーミスで倍率上限×10",
+      "trigger": "noMiss15s"
+    }
+  },
+  {
+    "id": "katsuya",
+    "name": "塀勝也",
+    "displayName": "塀 勝也",
+    "icon": "icon/heikatsu.jpg",
+    "tachi": "chr_katsuya_01_tsuujou_no_bg.png",
+    "color": "#3E4A3C",
+    "quote": "地面は忘れない",
+    "skill": {
+      "name": "等高線モード",
+      "desc": "残り30秒でカーブ斬り",
+      "trigger": "time30"
+    }
+  },
+  {
+    "id": "sato",
+    "name": "砂糖東洋",
+    "displayName": "砂糖 東洋",
+    "icon": "icon/sato.jpg",
+    "tachi": "chr_satou_01_game_gyoushi_no_bg.png",
+    "color": "#8A8A8A",
+    "quote": "事実を述べただけ",
+    "skill": {
+      "name": "窓の外スロー",
+      "desc": "5秒スロー＆全金色",
+      "trigger": "random"
+    }
+  },
+  {
+    "id": "terachi",
+    "name": "寺地星",
+    "displayName": "寺地 星",
+    "icon": "icon/terachi.jpg",
+    "tachi": "chr_terachi_01_nemusou_no_bg.png",
+    "color": "#6BA368",
+    "quote": "紙に書いて読みます",
+    "skill": {
+      "name": "巫女の筆記",
+      "desc": "OVERFLOW中スコア可視化",
+      "trigger": "overflow"
+    }
+  },
+  {
+    "id": "kuraishi",
+    "name": "倉石暁",
+    "displayName": "倉石 暁",
+    "icon": "icon/kuraishi.jpg",
+    "tachi": "processed_chr_kuraishi_01_nekkyou.png",
+    "color": "#8C2F3A",
+    "quote": "原✝本質✝を求めよ",
+    "skill": {
+      "name": "原典顕現",
+      "desc": "巨大カード耐久3",
+      "trigger": "random"
+    }
+  },
+  {
+    "id": "sakura",
+    "name": "櫻優",
+    "displayName": "櫻 優",
+    "icon": "icon/sakura.jpg",
+    "tachi": "chr_sakura_02_kenkyuusha_no_bg.png",
+    "color": "#86BBD8",
+    "quote": "シュレディンガーの好意",
+    "skill": {
+      "name": "重ね合わせ",
+      "desc": "シュレディ札出現",
+      "trigger": "random"
+    }
+  },
+  {
+    "id": "mitsumine",
+    "name": "三峰瑠衣",
+    "displayName": "三峰 瑠衣",
+    "icon": "icon/mitsumine.jpg",
+    "tachi": "chr_mitsumine_01_tsuujou_no_bg.png",
+    "color": "#E84855",
+    "quote": "好きなら好きって言いなよ",
+    "skill": {
+      "name": "正体暴き",
+      "desc": "シュレディ札を安全化",
+      "trigger": "sakura"
+    }
+  },
+  {
+    "id": "izaki",
+    "name": "伊崎",
+    "displayName": "伊崎",
+    "icon": "icon/izaki.jpg",
+    "tachi": "processed_chr_izaki_01_tsuujou.png",
+    "color": "#FF8A4C",
+    "quote": "いいんじゃない",
+    "skill": {
+      "name": "まとめ役",
+      "desc": "コンボ持続サポート",
+      "trigger": "passive"
+    }
+  },
+  {
+    "id": "izumi",
+    "name": "伊豆見",
+    "displayName": "伊豆見",
+    "icon": "icon/izumi.jpg",
+    "tachi": "processed_chr_izumi_02_egao.png",
+    "color": "#4ECDC4",
+    "quote": "俺が司会やりたい",
+    "skill": {
+      "name": "半歩ずれる",
+      "desc": "大喜利ボーナス",
+      "trigger": "passive"
+    }
+  },
+  {
+    "id": "meshino",
+    "name": "召野カイト",
+    "displayName": "召野 カイト",
+    "icon": "icon/meshino.jpg",
+    "tachi": "processed_chr_meshino_01_tsuujou.png",
+    "color": "#C9A0DC",
+    "quote": "封印の刻印だ",
+    "skill": {
+      "name": "人妻の封印",
+      "desc": "英語カード＋5秒",
+      "trigger": "random"
+    }
+  },
+  {
+    "id": "futami",
+    "name": "二見玲子",
+    "displayName": "二見 玲子",
+    "icon": "icon/futami.jpg",
+    "tachi": "processed_chr_futami_01_tsuujou.png",
+    "color": "#D4A5A5",
+    "quote": "自分のためにね",
+    "skill": {
+      "name": "英語の祝福",
+      "desc": "英語カード得点2倍",
+      "trigger": "meshino"
+    }
+  },
+  {
+    "id": "naito",
+    "name": "内藤蘭",
+    "displayName": "内藤 蘭",
+    "icon": "icon/naito.jpg",
+    "tachi": "chr_naitou_01_tsuujou_no_bg.png",
+    "color": "#F7B2BD",
+    "quote": "面白い考え方だね",
+    "skill": {
+      "name": "静かな微笑",
+      "desc": "ミス時の回復小",
+      "trigger": "passive"
+    }
+  },
+  {
+    "id": "feikatsu",
+    "name": "フェイカツ",
+    "displayName": "フェイカツ",
+    "icon": "icon/feikatsu.jpg",
+    "tachi": "",
+    "color": "#B0B0B0",
+    "quote": "フェイカツです",
+    "skill": {
+      "name": "偽装",
+      "desc": "偽本質を混ぜる",
+      "trigger": "enemy"
+    }
+  },
+  {
+    "id": "heikatsu",
+    "name": "ヘイカツ",
+    "displayName": "ヘイカツ",
+    "icon": "icon/heikatsu.jpg",
+    "tachi": "chr_katsuya_01_tsuujou_no_bg.png",
+    "color": "#3E4A3C",
+    "quote": "地面は忘れない",
+    "skill": {
+      "name": "地層剥離",
+      "desc": "OVERFLOW壁剥がし",
+      "trigger": "overflow"
+    }
+  },
+  {
+    "id": "nanashi",
+    "name": "名無し",
+    "displayName": "名無しの地形図好き",
+    "icon": "icon/heikatsu.jpg",
+    "tachi": "",
+    "color": "#888888",
+    "quote": "偏差値XXこれまじ✝本質✝",
+    "skill": {
+      "name": "匿名の声",
+      "desc": "掲示板レス生成",
+      "trigger": "result"
+    }
+  }
+]

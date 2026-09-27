@@ -1,0 +1,1208 @@
+[
+  {
+    "id": 1,
+    "text": "本質を追うほど遠ざかる",
+    "type": "honshitsu",
+    "speaker": "両馬",
+    "source": "一年編1章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 2,
+    "text": "良い山に登れば必ず福来る",
+    "type": "honshitsu",
+    "speaker": "名無し",
+    "source": "一年編3章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 3,
+    "text": "動物に好かれた者だけが入口に立つ",
+    "type": "honshitsu",
+    "speaker": "名無し",
+    "source": "一年編3章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 4,
+    "text": "夜道に出ろ昼には見えない本質がある",
+    "type": "honshitsu",
+    "speaker": "名無し",
+    "source": "一年編3章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 5,
+    "text": "正しいより本当の方が大事",
+    "type": "honshitsu",
+    "speaker": "名無し",
+    "source": "一年編3章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 6,
+    "text": "笑われた数だけ本質に近づく",
+    "type": "honshitsu",
+    "speaker": "名無し",
+    "source": "一年編3章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 7,
+    "text": "コーンスープは無い方が本質",
+    "type": "honshitsu",
+    "speaker": "砂糖",
+    "source": "一年編3章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 8,
+    "text": "雨の前の匂いを知る者は入口に立つ",
+    "type": "honshitsu",
+    "speaker": "名無し",
+    "source": "一年編3章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 9,
+    "text": "本質は黙っているときに来る",
+    "type": "honshitsu",
+    "speaker": "名無し",
+    "source": "二年編4章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 10,
+    "text": "電柱の影を踏む者は本質に近い",
+    "type": "honshitsu",
+    "speaker": "名無し",
+    "source": "二年編4章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 11,
+    "text": "恋はうまくいかない方が本質に近い",
+    "type": "honshitsu",
+    "speaker": "名無し",
+    "source": "二年編4章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 12,
+    "text": "窓を見る目の向こうに全部ある",
+    "type": "honshitsu",
+    "speaker": "名無し",
+    "source": "二年編4章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 13,
+    "text": "答えが出た瞬間それは本質でない",
+    "type": "honshitsu",
+    "speaker": "名無し",
+    "source": "二年編4章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 14,
+    "text": "地面は忘れない",
+    "type": "honshitsu",
+    "speaker": "勝也",
+    "source": "三年編9章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 15,
+    "text": "地図が追いつかない地面がある",
+    "type": "honshitsu",
+    "speaker": "零",
+    "source": "三年編9章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 16,
+    "text": "地図の向こう側が見えている",
+    "type": "honshitsu",
+    "speaker": "名無し",
+    "source": "一年編7章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 17,
+    "text": "地層は時間の積み重ねだ",
+    "type": "honshitsu",
+    "speaker": "勝也",
+    "source": "一年編4章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 18,
+    "text": "同じ地図でも見る者が変われば違う",
+    "type": "honshitsu",
+    "speaker": "勝也",
+    "source": "二年編7章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 19,
+    "text": "糸魚川構造線で味噌が変わる",
+    "type": "honshitsu",
+    "speaker": "勝也",
+    "source": "一年編2章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 20,
+    "text": "朝飯は数億年前の地面が決める",
+    "type": "honshitsu",
+    "speaker": "勝也",
+    "source": "一年編2章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 21,
+    "text": "等高線一本に人の判断が載る",
+    "type": "honshitsu",
+    "speaker": "勝也",
+    "source": "二年編7章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 22,
+    "text": "百五十人から始まった配信",
+    "type": "honshitsu",
+    "speaker": "寺地",
+    "source": "二年編4章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 23,
+    "text": "三十二人の方が本質に近い",
+    "type": "honshitsu",
+    "speaker": "寺地",
+    "source": "三年編5章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 24,
+    "text": "数じゃない距離だ",
+    "type": "honshitsu",
+    "speaker": "寺地",
+    "source": "三年編5章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 25,
+    "text": "片思いの本質は成就しないこと",
+    "type": "honshitsu",
+    "speaker": "召野",
+    "source": "二年編5章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 26,
+    "text": "完了した恋は終わらない",
+    "type": "honshitsu",
+    "speaker": "召野",
+    "source": "二年編10章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 27,
+    "text": "わからないことが本質だ",
+    "type": "honshitsu",
+    "speaker": "両馬",
+    "source": "二年編1章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 28,
+    "text": "説明できたら本質じゃない",
+    "type": "honshitsu",
+    "speaker": "砂糖",
+    "source": "二年編6章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 29,
+    "text": "理論がない状態の恋が正しい",
+    "type": "honshitsu",
+    "speaker": "零",
+    "source": "二年編3章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 30,
+    "text": "面白いがすべてを決める",
+    "type": "honshitsu",
+    "speaker": "零",
+    "source": "一年編6章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 31,
+    "text": "枠が広がると中身がこぼれる",
+    "type": "honshitsu",
+    "speaker": "両馬",
+    "source": "二年編6章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 32,
+    "text": "否定しないことが全肯定だ",
+    "type": "honshitsu",
+    "speaker": "両馬",
+    "source": "二年編11章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 33,
+    "text": "待つことが教育の本質だ",
+    "type": "honshitsu",
+    "speaker": "勝也",
+    "source": "三年編1章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 34,
+    "text": "見えないけどある",
+    "type": "honshitsu",
+    "speaker": "零",
+    "source": "三年編3章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 35,
+    "text": "✝本質✝は平等だ",
+    "type": "honshitsu",
+    "speaker": "寺地",
+    "source": "三年編2章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 36,
+    "text": "本質は降りてくる",
+    "type": "honshitsu",
+    "speaker": "両馬",
+    "source": "一年編1章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 37,
+    "text": "電線に本質感がある",
+    "type": "honshitsu",
+    "speaker": "両馬",
+    "source": "一年編1章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 38,
+    "text": "本質に何がはない",
+    "type": "honshitsu",
+    "speaker": "両馬",
+    "source": "一年編1章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 39,
+    "text": "文法の本質を超えた先にある",
+    "type": "honshitsu",
+    "speaker": "両馬",
+    "source": "一年編1章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 40,
+    "text": "地形図に感動できる大人がいる",
+    "type": "honshitsu",
+    "speaker": "両馬",
+    "source": "一年編1章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 41,
+    "text": "良い山は必ずある",
+    "type": "honshitsu",
+    "speaker": "寺地",
+    "source": "一年編3章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 42,
+    "text": "本当のことをやれば十分だ",
+    "type": "honshitsu",
+    "speaker": "寺地",
+    "source": "三年編2章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 43,
+    "text": "待ってました✝",
+    "type": "honshitsu",
+    "speaker": "倉石",
+    "source": "三年編5章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 44,
+    "text": "時間が人を変える",
+    "type": "honshitsu",
+    "speaker": "勝也",
+    "source": "二年編7章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 45,
+    "text": "同じ本を二回読めば違う本になる",
+    "type": "honshitsu",
+    "speaker": "名無し",
+    "source": "二年編7章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 46,
+    "text": "恋は波動関数の崩壊だ",
+    "type": "honshitsu",
+    "speaker": "櫻",
+    "source": "一年編6章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 47,
+    "text": "面白いと思ったことは本当だ",
+    "type": "honshitsu",
+    "speaker": "零",
+    "source": "三年編5章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 48,
+    "text": "三十二人なら全部読める",
+    "type": "honshitsu",
+    "speaker": "寺地",
+    "source": "三年編5章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 49,
+    "text": "星は昼でもある見えないだけ",
+    "type": "honshitsu",
+    "speaker": "寺地",
+    "source": "一年編4章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 50,
+    "text": "海の向こうで本質が噴き出す",
+    "type": "honshitsu",
+    "speaker": "両馬",
+    "source": "二年編9章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 51,
+    "text": "ハワイの本質は地面が忘れないこと",
+    "type": "honshitsu",
+    "speaker": "両馬",
+    "source": "二年編9章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 52,
+    "text": "等高線を足で感じる",
+    "type": "honshitsu",
+    "speaker": "倉石",
+    "source": "三年編3章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 53,
+    "text": "内側だったものが外側になる",
+    "type": "honshitsu",
+    "speaker": "零",
+    "source": "二年編6章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 54,
+    "text": "本質配信は紙に書いて読むだけ",
+    "type": "honshitsu",
+    "speaker": "寺地",
+    "source": "一年編3章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 55,
+    "text": "百人の壁より三十二人の近さ",
+    "type": "honshitsu",
+    "speaker": "寺地",
+    "source": "三年編5章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 56,
+    "text": "わからないまま続けるのが本質",
+    "type": "honshitsu",
+    "speaker": "寺地",
+    "source": "三年編2章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 57,
+    "text": "山の稜線が等高線になる",
+    "type": "honshitsu",
+    "speaker": "砂糖",
+    "source": "一年編5章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 58,
+    "text": "味噌は地質が決める",
+    "type": "honshitsu",
+    "speaker": "勝也",
+    "source": "一年編2章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 59,
+    "text": "丸餅と角餅の境は地層にある",
+    "type": "honshitsu",
+    "speaker": "勝也",
+    "source": "一年編2章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 60,
+    "text": "人の住む場所は洪水が決める",
+    "type": "honshitsu",
+    "speaker": "勝也",
+    "source": "一年編4章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 61,
+    "text": "今から過去を掘る描き方",
+    "type": "honshitsu",
+    "speaker": "寺地",
+    "source": "一年編10章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 62,
+    "text": "同じ景色を二回見たら別物だ",
+    "type": "honshitsu",
+    "speaker": "零",
+    "source": "一年編12章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 63,
+    "text": "走るとフィルターが外れる",
+    "type": "honshitsu",
+    "speaker": "両馬",
+    "source": "三年編3章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 64,
+    "text": "負けた悔しさは本質じゃない",
+    "type": "honshitsu",
+    "speaker": "両馬",
+    "source": "三年編4章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 65,
+    "text": "手が届かないと知っても伸ばす",
+    "type": "honshitsu",
+    "speaker": "召野",
+    "source": "三年編2章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 66,
+    "text": "三重の将来は誰かのそばにいる",
+    "type": "honshitsu",
+    "speaker": "寺地",
+    "source": "一年編8章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 67,
+    "text": "否定の守護者は必要だ",
+    "type": "honshitsu",
+    "speaker": "倉石",
+    "source": "三年編2章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 68,
+    "text": "五段階あっても結局は同じ",
+    "type": "honshitsu",
+    "speaker": "寺地",
+    "source": "三年編2章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 69,
+    "text": "等高線の向こうに人がいる68",
+    "type": "honshitsu",
+    "speaker": "勝也",
+    "source": "一年編4章",
+    "weight": 10,
+    "unlocked": false
+  },
+  {
+    "id": 70,
+    "text": "等高線の向こうに人がいる69",
+    "type": "honshitsu",
+    "speaker": "勝也",
+    "source": "一年編4章",
+    "weight": 10,
+    "unlocked": true
+  },
+  {
+    "id": 71,
+    "text": "業者が補充しただけだ",
+    "type": "a_honshitsu",
+    "speaker": "三重",
+    "source": "一年編12章",
+    "weight": 8,
+    "unlocked": true
+  },
+  {
+    "id": 72,
+    "text": "時系列が一致しただけ因果じゃない",
+    "type": "a_honshitsu",
+    "speaker": "三重",
+    "source": "一年編12章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 73,
+    "text": "笹かまぼこは三重県の名物",
+    "type": "a_honshitsu",
+    "speaker": "三重",
+    "source": "一年編1章",
+    "weight": 8,
+    "unlocked": true
+  },
+  {
+    "id": 74,
+    "text": "効率よくやろう",
+    "type": "a_honshitsu",
+    "speaker": "名無し",
+    "source": "二年編7章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 75,
+    "text": "パターン認識してるだけだ",
+    "type": "a_honshitsu",
+    "speaker": "三重",
+    "source": "二年編1章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 76,
+    "text": "パターンで感知してるだけ",
+    "type": "a_honshitsu",
+    "speaker": "三重",
+    "source": "一年編9章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 77,
+    "text": "否定しながら聞いてるだけ",
+    "type": "a_honshitsu",
+    "speaker": "三重",
+    "source": "一年編7章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 78,
+    "text": "冷笑で突き放してるだけ",
+    "type": "a_honshitsu",
+    "speaker": "三重",
+    "source": "一年編7章",
+    "weight": 8,
+    "unlocked": true
+  },
+  {
+    "id": 79,
+    "text": "普通のことだろ前向くのは",
+    "type": "a_honshitsu",
+    "speaker": "三重",
+    "source": "一年編7章",
+    "weight": 8,
+    "unlocked": true
+  },
+  {
+    "id": 80,
+    "text": "自演じゃなくて自己対話だ",
+    "type": "a_honshitsu",
+    "speaker": "両馬",
+    "source": "一年編2章",
+    "weight": 8,
+    "unlocked": true
+  },
+  {
+    "id": 81,
+    "text": "受験に役立たないもの",
+    "type": "a_honshitsu",
+    "speaker": "倉石",
+    "source": "三年編3章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 82,
+    "text": "意味わかんない配信だ",
+    "type": "a_honshitsu",
+    "speaker": "名無し",
+    "source": "三年編5章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 83,
+    "text": "ネタでやってるのかマジか不明",
+    "type": "a_honshitsu",
+    "speaker": "名無し",
+    "source": "三年編5章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 84,
+    "text": "学校特定したら面白くね",
+    "type": "a_honshitsu",
+    "speaker": "名無し",
+    "source": "三年編5章",
+    "weight": 8,
+    "unlocked": true
+  },
+  {
+    "id": 85,
+    "text": "亜本質なんてない全部本質だ",
+    "type": "a_honshitsu",
+    "speaker": "寺地",
+    "source": "三年編2章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 86,
+    "text": "理論で処理しようとするな",
+    "type": "a_honshitsu",
+    "speaker": "零",
+    "source": "二年編14章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 87,
+    "text": "本質にヒエラルキーはない",
+    "type": "a_honshitsu",
+    "speaker": "寺地",
+    "source": "三年編2章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 88,
+    "text": "言語化したら残骸だ",
+    "type": "a_honshitsu",
+    "speaker": "倉石",
+    "source": "二年編4章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 89,
+    "text": "クレープは亜✝本質✝だ",
+    "type": "a_honshitsu",
+    "speaker": "倉石",
+    "source": "三年編2章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 90,
+    "text": "前原本質は概念ですらない",
+    "type": "a_honshitsu",
+    "speaker": "倉石",
+    "source": "三年編2章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 91,
+    "text": "【朗報】理数科が内進を超えたwww",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "二年編7章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 92,
+    "text": "ヘイカツって誰有名講師？",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "一年編4章",
+    "weight": 8,
+    "unlocked": true
+  },
+  {
+    "id": 93,
+    "text": "受験に✝本質✝役立つんですか",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "三年編3章",
+    "weight": 8,
+    "unlocked": true
+  },
+  {
+    "id": 94,
+    "text": "このスレ何が面白いの？",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "三年編5章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 95,
+    "text": "信者きもい宗教かよ",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "三年編5章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 96,
+    "text": "まとめサイトから来ました",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "三年編5章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 97,
+    "text": "切り抜きの方が面白いわ",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "三年編5章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 98,
+    "text": "ガチ勢が怖すぎるんだけど",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "三年編5章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 99,
+    "text": "偏差値60とか低すぎ草",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "二年編7章",
+    "weight": 8,
+    "unlocked": true
+  },
+  {
+    "id": 100,
+    "text": "等高線とか覚える意味ある？",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "一年編2章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 101,
+    "text": "コーンスープ売切ってマジ？",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "一年編12章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 102,
+    "text": "三重県産松阪牛がうまい",
+    "type": "noise",
+    "speaker": "両馬",
+    "source": "一年編1章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 103,
+    "text": "天気予報に✝本質✝いらんやろ",
+    "type": "noise",
+    "speaker": "両馬",
+    "source": "一年編1章",
+    "weight": 8,
+    "unlocked": true
+  },
+  {
+    "id": 104,
+    "text": "ヘイカツ先生は塾講師です",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "一年編4章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 105,
+    "text": "寺地チャンネル登録者千人",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "三年編5章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 106,
+    "text": "星と地面って何だよ",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "一年編1章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 107,
+    "text": "理数科ハワイずるくない？",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "二年編7章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 108,
+    "text": "内進の方が頭いいでしょ",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "二年編7章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 109,
+    "text": "本質って単語使いすぎ",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "一年編1章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 110,
+    "text": "ﾜｯﾁｮｲで自演バレてるぞ",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "一年編2章",
+    "weight": 8,
+    "unlocked": false
+  },
+  {
+    "id": 111,
+    "text": "本質を追うほど遠ぎかる",
+    "type": "fake_katsu",
+    "speaker": "名無し",
+    "source": "一年編3章",
+    "weight": 6,
+    "unlocked": false
+  },
+  {
+    "id": 112,
+    "text": "彗星を追えば追うほど遠くなる",
+    "type": "fake_katsu",
+    "speaker": "名無し",
+    "source": "一年編3章",
+    "weight": 6,
+    "unlocked": false
+  },
+  {
+    "id": 113,
+    "text": "正しいことより本堂の方が犬事",
+    "type": "fake_katsu",
+    "speaker": "名無し",
+    "source": "一年編3章",
+    "weight": 6,
+    "unlocked": false
+  },
+  {
+    "id": 114,
+    "text": "地面は意れいない",
+    "type": "fake_katsu",
+    "speaker": "勝也",
+    "source": "二年編9章",
+    "weight": 6,
+    "unlocked": false
+  },
+  {
+    "id": 115,
+    "text": "等高線が人に見えるようになる",
+    "type": "fake_katsu",
+    "speaker": "倉石",
+    "source": "三年編3章",
+    "weight": 6,
+    "unlocked": false
+  },
+  {
+    "id": 116,
+    "text": "笑われた数だけ本室に近づく",
+    "type": "fake_katsu",
+    "speaker": "名無し",
+    "source": "一年編3章",
+    "weight": 6,
+    "unlocked": false
+  },
+  {
+    "id": 117,
+    "text": "コーンスーフは無い方が本質",
+    "type": "fake_katsu",
+    "speaker": "砂糖",
+    "source": "一年編3章",
+    "weight": 6,
+    "unlocked": false
+  },
+  {
+    "id": 118,
+    "text": "封印の刻印が光る",
+    "type": "rare",
+    "speaker": "召野",
+    "source": "二年編2章",
+    "weight": 2,
+    "unlocked": false
+  },
+  {
+    "id": 119,
+    "text": "結婚指輪は封印だ",
+    "type": "rare",
+    "speaker": "召野",
+    "source": "二年編2章",
+    "weight": 2,
+    "unlocked": false
+  },
+  {
+    "id": 120,
+    "text": "コーンスープ復活した",
+    "type": "rare",
+    "speaker": "両馬",
+    "source": "二年編12章",
+    "weight": 2,
+    "unlocked": false
+  },
+  {
+    "id": 121,
+    "text": "六ヶ月ぶりのコーンスープ",
+    "type": "rare",
+    "speaker": "伊豆見",
+    "source": "一年編12章",
+    "weight": 2,
+    "unlocked": false
+  },
+  {
+    "id": 122,
+    "text": "原✝本質✝が降臨した",
+    "type": "rare",
+    "speaker": "倉石",
+    "source": "二年編1章",
+    "weight": 2,
+    "unlocked": false
+  },
+  {
+    "id": 123,
+    "text": "前-原✝本質✝に到達した",
+    "type": "rare",
+    "speaker": "倉石",
+    "source": "三年編2章",
+    "weight": 2,
+    "unlocked": false
+  },
+  {
+    "id": 124,
+    "text": "自販機に湯気が立つ",
+    "type": "rare",
+    "speaker": "名無し",
+    "source": "一年編12章",
+    "weight": 2,
+    "unlocked": true
+  },
+  {
+    "id": 125,
+    "text": "銀の輪が光を反射する",
+    "type": "rare",
+    "speaker": "召野",
+    "source": "二年編2章",
+    "weight": 2,
+    "unlocked": false
+  },
+  {
+    "id": 126,
+    "text": "いいんじゃない",
+    "type": "honshitsu",
+    "speaker": "伊崎",
+    "source": "一年編7章",
+    "weight": 6,
+    "unlocked": false
+  },
+  {
+    "id": 127,
+    "text": "伊崎のまとめ役は地味に本質",
+    "type": "honshitsu",
+    "speaker": "伊崎",
+    "source": "二年編7章",
+    "weight": 6,
+    "unlocked": false
+  },
+  {
+    "id": 128,
+    "text": "俺が司会やりたい",
+    "type": "honshitsu",
+    "speaker": "伊豆見",
+    "source": "二年編6章",
+    "weight": 6,
+    "unlocked": false
+  },
+  {
+    "id": 129,
+    "text": "好きなら好きって言いなよ",
+    "type": "honshitsu",
+    "speaker": "三峰",
+    "source": "二年編3章",
+    "weight": 6,
+    "unlocked": true
+  },
+  {
+    "id": 130,
+    "text": "波動関数って何",
+    "type": "a_honshitsu",
+    "speaker": "三峰",
+    "source": "二年編6章",
+    "weight": 6,
+    "unlocked": false
+  },
+  {
+    "id": 131,
+    "text": "面白い考え方だね",
+    "type": "honshitsu",
+    "speaker": "内藤",
+    "source": "二年編8章",
+    "weight": 6,
+    "unlocked": false
+  },
+  {
+    "id": 132,
+    "text": "星と地面の配信安心する",
+    "type": "honshitsu",
+    "speaker": "内藤",
+    "source": "二年編8章",
+    "weight": 6,
+    "unlocked": true
+  },
+  {
+    "id": 133,
+    "text": "自分のためにね",
+    "type": "honshitsu",
+    "speaker": "二見",
+    "source": "二年編10章",
+    "weight": 6,
+    "unlocked": true
+  },
+  {
+    "id": 134,
+    "text": "英語で告白したらどうなるの",
+    "type": "noise",
+    "speaker": "二見",
+    "source": "二年編5章",
+    "weight": 6,
+    "unlocked": true
+  }
+]

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#3E4A3C">
+<title>✝本質✝ OVERFLOW —偏差値60の教室から—</title>
+<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<div id="app">
+  <div class="game-frame" id="gameFrame">
+    <!-- classroom bg -->
+    <div class="classroom" id="classroom">
+      <div class="wall"></div>
+      <div class="blackboard"><div class="contour"></div><div class="label">地形図 — 等高線 / 河岸段丘 / 糸魚川-静岡構造線</div></div>
+      <div class="fluorescent"></div>
+      <div class="tiles"></div>
+      <div class="vending"><div class="lamp"></div><div class="cans"><span></span><span></span><span></span><span class="corn"></span></div></div>
+      <div class="leaks" id="leaks"></div>
+    </div>
+
+    <!-- HUD -->
+    <div class="hud" id="hud">
+      <div class="panel deviation">
+        <div class="label-s">偏差値</div>
+        <div class="dev-val" id="devVal">60.0</div>
+        <div class="dev-rank" id="devRank">非✝本質✝</div>
+      </div>
+      <div class="panel timer" id="timerPanel">
+        <div class="label-s">残り</div>
+        <div class="time-val" id="timeVal">60.00</div>
+      </div>
+      <div class="panel combo" id="comboPanel">
+        <div class="label-s">コンボ</div>
+        <div class="combo-val" id="comboVal">0</div>
+        <div class="label-s" id="multVal">×1.0</div>
+      </div>
+      <div class="overflow-wrap" id="overflowWrap">
+        <div class="overflow-fill" id="overflowFill"></div>
+        <div class="overflow-label" id="overflowLabel">OVERFLOW</div>
+      </div>
+    </div>
+
+    <button class="mute-btn" id="muteBtn" aria-label="mute">🔊</button>
+
+    <!-- card layer -->
+    <div class="card-layer" id="cardLayer">
+      <div class="target-glow" id="targetGlow"></div>
+    </div>
+
+    <!-- effect canvas -->
+    <canvas class="effect-canvas" id="effectCanvas" width="420" height="760"></canvas>
+    <div class="screen-flash" id="screenFlash"></div>
+    <div class="ha-stamp" id="haStamp">は？</div>
+
+    <!-- char stage -->
+    <div class="char-stage" id="charStage"></div>
+
+    <!-- controls -->
+    <div class="controls" id="controls">
+      <button class="btn huh" id="btnHuh"><span class="kana">はじく</span><span class="main">は？</span><span class="key-hint">X / → / 下ｽﾜｲﾌﾟ</span></button>
+      <button class="btn overflow" id="btnOverflow"><span>✝</span><span id="overflowBtnTxt">OVERFLOW</span></button>
+      <button class="btn kizamu" id="btnKizamu"><span class="kana">きざむ</span><span class="main">✝ 刻む</span><span class="key-hint">Z / ← / ﾀｯﾌﾟ</span></button>
+    </div>
+
+    <!-- tutorial overlay -->
+    <div class="tutorial hidden" id="tutorial">
+      <div class="tut-card">
+        <div style="font-weight:900;font-size:14px;">2ボタンだけ</div>
+        <div style="font-size:11px;color:#5A5A5A;margin-top:4px;">下にあるカードが自動で狙われる</div>
+        <div class="tut-anim">
+          <div class="phone"><div style="font-size:22px">✝</div><div style="font-size:10px;font-weight:800">刻む</div><div class="arrow">👇ﾀｯﾌﾟ</div></div>
+          <div class="phone"><div style="font-size:22px">は？</div><div style="font-size:10px;font-weight:800">弾く</div><div class="arrow">👇ｽﾜｲﾌﾟ</div></div>
+        </div>
+        <div style="font-size:10px;color:#6A6A6A">本質を刻め。偽物をはじけ。<br>60秒、反射で殴れ。</div>
+      </div>
+    </div>
+
+    <!-- countdown -->
+    <div class="countdown hidden" id="countdown"><div class="paper-num" id="countNum"><span id="countText">3</span></div></div>
+
+    <!-- overlays -->
+    <div class="overlay" id="titleOverlay">
+      <div class="title-logo" id="titleLogo">
+        <h1>✝本質✝<br><span class="cross">OVERFLOW</span><br><span style="font-size:13px;letter-spacing:0.12em;color:#8C2F3A">— 偏差値60の教室から —</span></h1>
+        <p>北棟理数科B組 / 60秒 / 反射で刻め</p>
+        <div class="missions" id="missionList"></div>
+      </div>
+      <button class="tap-start" id="tapStart">TAP TO 漏出開始</button>
+      <div class="sub-actions">
+        <button id="btnCollection">語録コレクション</button>
+        <button id="btnDaily">デイリーシード</button>
+      </div>
+      <div style="margin-top:10px;font-size:9px;color:#8A8F8A;text-align:center;line-height:1.5">BGM/SEは合成音のみ / 軽量60fps / 片手で遊べる<br>ハイスコアは端末に保存</div>
+    </div>
+
+    <div class="overlay hidden" id="resultOverlay">
+      <div class="result-card" id="resultCard">
+        <div class="result-header"><h2>配信終了</h2><span style="font-size:10px;opacity:0.7" id="resultTime">60.00s</span></div>
+        <div class="result-body">
+          <div style="text-align:center;font-size:10px;letter-spacing:0.12em;font-weight:800;color:#6A6A6A">あなたの偏差値は</div>
+          <div class="deviation-big" id="resultDev">60.0<span class="unit"> 偏差値</span></div>
+          <div class="rank-stamp" id="rankStamp"><div class="rank-name" id="rankName">非✝本質✝</div><div class="rank-sub" id="rankSub">HI-HONSHITSU</div></div>
+          <div class="stats">
+            <div class="stat"><div class="v" id="statScore">0</div><div class="k">SCORE</div></div>
+            <div class="stat"><div class="v" id="statCombo">0</div><div class="k">MAX COMBO</div></div>
+            <div class="stat"><div class="v" id="statMiss">0</div><div class="k">誤爆</div></div>
+          </div>
+          <div class="bulletin" id="bulletin"></div>
+          <button class="copy-btn" id="copyBtn">結果をコピー</button>
+          <div class="result-actions">
+            <button class="btn-ghost" id="btnToTitle">タイトルへ</button>
+            <button class="btn-primary" id="btnRetry">もう一回</button>
+          </div>
+          <div style="text-align:right;margin-top:8px;font-size:10px;color:#8A8F8A" id="haOchi">三重の「は？」が右下に…</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="collection" id="collection">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <h3 style="margin:0;font-size:14px;font-weight:900">語録コレクション</h3>
+        <button id="closeCollection" style="background:#1A1A22;color:#fff;border:none;border-radius:999px;padding:6px 12px;font-weight:800;cursor:pointer">閉じる</button>
+      </div>
+      <div style="font-size:11px;color:#5A5A5A;margin-top:6px" id="collProgress"></div>
+      <div class="coll-grid" id="collGrid"></div>
+    </div>
+
+    <div id="debug"></div>
+  </div>
+</div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
