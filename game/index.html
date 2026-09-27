@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>✝本質✝スコアアタック｜偏差値60の教室から✝本質✝が漏れ出している件について</title>
+<meta name="description" content="原作『偏差値60の教室から✝本質✝が漏れ出している件について』を精読してスコアを競う、制限時間つきスコアアタック。">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230e1116'/><text y='78' x='50' text-anchor='middle' font-size='84' fill='%23ff6b3d'>✝</text></svg>">
+</head>
+<body>
+
+<div id="bgphoto" aria-hidden="true"></div>
+<div id="bgtexture" aria-hidden="true"></div>
+<div id="bgmap" aria-hidden="true"></div>
+<div id="vignette" aria-hidden="true"></div>
+
+<!-- ============ TITLE ============ -->
+<section class="screen active" id="screen-title">
+  <div class="wrap">
+    <header class="hero">
+      <p class="hero-kicker">原作精読スコアアタック</p>
+      <h1 class="logo">
+        <span class="logo-mark">✝</span>本質<span class="logo-mark">✝</span>
+      </h1>
+      <p class="hero-sub"><b>偏差値60の教室から✝本質✝が漏れ出している件について</b><br>
+        <span class="dim">一年生編／二年生編／三年生編・一学期 より出題</span></p>
+      <p class="hero-lead">時間は減り続ける。正解だけがスコアになる。<br>誤答すると<b class="neg">−3秒</b>。原作を読み込んだ者だけが生存できる。</p>
+    </header>
+
+    <div class="modes" id="modes"></div>
+
+    <div class="title-actions">
+      <button class="btn ghost" data-act="ranking">🏆 ランキング</button>
+      <button class="btn ghost" data-act="help">📖 遊び方</button>
+      <button class="btn ghost" data-act="cast">👥 登場人物</button>
+      <button class="btn ghost" id="btn-sound" data-act="sound">🔊 音：ON</button>
+    </div>
+
+    <div class="cast-strip" id="cast-strip" aria-hidden="true"></div>
+    <p class="footnote">非公式・ファン制作。原作テキスト（gensaku.txt）の記述に基づいて出題しています。<br>
+      スコアは端末内（localStorage）に保存されます。</p>
+  </div>
+</section>
+
+<!-- ============ COUNTDOWN ============ -->
+<section class="screen" id="screen-count">
+  <div class="countdown" id="countdown">
+    <div class="cd-num" id="cd-num">3</div>
+    <div class="cd-mode" id="cd-mode"></div>
+    <div class="cd-hint">タップ／クリックで解答　｜　キーボード 1〜4・←→ も可</div>
+  </div>
+</section>
+
+<!-- ============ PLAY ============ -->
+<section class="screen" id="screen-play">
+  <div class="play-wrap">
+
+    <div class="hud">
+      <div class="hud-row">
+        <div class="hud-time" id="hud-time">
+          <span class="hud-time-num" id="time-num">90.0</span><span class="hud-time-unit">秒</span>
+        </div>
+        <div class="hud-score">
+          <span class="hud-label">SCORE</span>
+          <span class="hud-score-num" id="score-num">0</span>
+        </div>
+        <div class="hud-combo" id="hud-combo">
+          <span class="hud-label">COMBO</span>
+          <span class="hud-combo-num" id="combo-num">0</span>
+          <span class="hud-mult" id="mult-num">×1.0</span>
+        </div>
+      </div>
+      <div class="timebar"><div class="timebar-fill" id="timebar"></div><div class="timebar-danger" id="timebar-danger"></div></div>
+      <div class="hud-row2">
+        <span id="q-index">Q1</span>
+        <span id="q-type" class="qtype">—</span>
+        <span id="q-src" class="src">—</span>
+      </div>
+    </div>
+
+    <div class="stage" id="stage">
+      <div class="qcard" id="qcard">
+        <div class="qtag" id="qtag">出題</div>
+        <div class="qface" id="qface"></div>
+        <div class="qtext" id="qtext"></div>
+        <div class="qmeta" id="qmeta"></div>
+      </div>
+
+      <div class="options" id="options"></div>
+
+      <div class="feedback" id="feedback">
+        <div class="fb-head" id="fb-head"></div>
+        <div class="fb-ex" id="fb-ex"></div>
+        <div class="fb-src" id="fb-src"></div>
+      </div>
+
+      <div class="perma-bar" id="perma-bar"><div class="perma-fill" id="perma-fill"></div></div>
+    </div>
+
+    <div class="cast-layer" id="cast-layer"></div>
+    <div class="float-layer" id="float-layer" aria-hidden="true"></div>
+    <div class="fx-layer" id="fx-layer" aria-hidden="true"></div>
+    <div class="broadcast" id="broadcast" aria-hidden="true">
+      <div class="bc-face"></div>
+      <div class="bc-body">
+        <div class="bc-title">✝本質✝募集所 より</div>
+        <div class="bc-text"></div>
+        <div class="bc-read"></div>
+      </div>
+    </div>
+    <div class="toast" id="toast"></div>
+  </div>
+</section>
+
+<!-- ============ RESULT ============ -->
+<section class="screen" id="screen-result">
+  <div class="wrap result-wrap">
+    <div class="res-rank" id="res-rank">
+      <div class="res-badge">称号</div>
+      <div class="res-title" id="res-title">—</div>
+      <div class="res-score" id="res-score">0</div>
+      <div class="res-best" id="res-best"></div>
+    </div>
+    <div class="res-comment">
+      <img class="res-face" id="res-face" alt="">
+      <div class="bubble" id="res-line"></div>
+    </div>
+    <div class="res-stats" id="res-stats"></div>
+    <div class="res-review" id="res-review"></div>
+    <div class="res-register" id="res-register">
+      <label>名前を入れてランキング登録</label>
+      <div class="reg-row">
+        <input id="reg-name" maxlength="12" placeholder="名無しの地形図好き">
+        <button class="btn" data-act="save">登録</button>
+      </div>
+    </div>
+    <div class="res-actions">
+      <button class="btn" data-act="retry">もう一度（R）</button>
+      <button class="btn ghost" data-act="ranking">🏆 ランキング</button>
+      <button class="btn ghost" data-act="title">タイトルへ（Esc）</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RANKING ============ -->
+<section class="screen" id="screen-ranking">
+  <div class="wrap">
+    <h2 class="scr-title">🏆 スコアランキング</h2>
+    <div class="tabs" id="rank-tabs"></div>
+    <div id="rank-body" class="rank-body"></div>
+    <div class="res-actions">
+      <button class="btn ghost" data-act="title">もどる（Esc）</button>
+      <button class="btn ghost danger" data-act="clear">記録を消す</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HELP ============ -->
+<section class="screen" id="screen-help">
+  <div class="wrap">
+    <h2 class="scr-title">📖 遊び方</h2>
+    <div class="help-body">
+      <h3>基本</h3>
+      <ul>
+        <li>画面に出る問題に、タップ／クリック／キーボード（1〜4、←→）で即答する<b>制限時間つきスコアアタック</b>です。</li>
+        <li>時間は止まりません。<b>誤答すると −3秒</b>。時間が0になった時点で終了。</li>
+        <li>解答後の解説表示中だけ、時間が止まります（精読ポイントを読む時間）。</li>
+      </ul>
+      <h3>スコア</h3>
+      <ul>
+        <li>基本点 = 難易度（100 / 200 / 300点）。</li>
+        <li><b>速さボーナス</b>：早く答えるほど最大 +50%。</li>
+        <li><b>コンボ倍率</b>：連続正解で ×1.0 → ×3.0 まで上昇。誤答でリセット。</li>
+        <li><b>ラストスパート</b>：残り10秒を切ると全得点 ×1.5。</li>
+        <li>8問ごとに「本質配信」演出が挟まり、休憩＆+250点。</li>
+      </ul>
+      <h3>モード</h3>
+      <ul>
+        <li><b>本質サバイバル</b>：90秒。誤答 −3秒。全タイプの精読問題。</li>
+        <li><b>「は？」ラッシュ</b>：60秒。1問4秒の即答戦。速さで殴り合う。</li>
+        <li><b>大喜利</b>：45秒。正解すると +2秒、誤答 −2秒。ウケた回答を選べ。</li>
+      </ul>
+      <h3>出題について</h3>
+      <p class="dim">原作（gensaku.txt 全4021行）の記述から作成した123問超のデータベースを使用。セリフ当て・数字当て・本物／フェイカツ判定などをランダムに出題します。「〜じゃない」問題では、<b>原作に実在する発言かどうか</b>が判定基準です。</p>
+    </div>
+    <div class="res-actions"><button class="btn ghost" data-act="title">もどる（Esc）</button></div>
+  </div>
+</section>
+
+<!-- ============ CAST ============ -->
+<section class="screen" id="screen-cast">
+  <div class="wrap">
+    <h2 class="scr-title">👥 登場人物</h2>
+    <div class="cast-grid" id="cast-grid"></div>
+    <div class="res-actions"><button class="btn ghost" data-act="title">もどる（Esc）</button></div>
+  </div>
+</section>
+
+<script src="js/data.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>
