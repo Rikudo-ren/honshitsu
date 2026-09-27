@@ -169,6 +169,7 @@ body[data-screen="ranking"] #bgtexture,body[data-screen="help"] #bgtexture,body[
 .qtag{position:absolute; top:-11px; left:16px; font-size:10.5px; letter-spacing:.16em; font-weight:800;
   background:var(--verm); color:#1a0b06; border-radius:999px; padding:3px 12px}
 .qface{display:flex; justify-content:center; margin:2px 0 6px}
+.qface:empty{margin:0}
 .qface img{width:clamp(84px,22vw,124px); height:clamp(84px,22vw,124px); border-radius:50%; object-fit:cover;
   border:3px solid rgba(255,85,51,.55); box-shadow:0 0 30px rgba(255,85,51,.28)}
 .qtext{font-size:clamp(16.5px,4.1vw,25px); font-weight:700; line-height:1.62; white-space:pre-line; letter-spacing:.01em}
@@ -227,7 +228,7 @@ body[data-screen="ranking"] #bgtexture,body[data-screen="help"] #bgtexture,body[
 .cast-layer{pointer-events:none; position:fixed; left:0; right:0; bottom:0; z-index:5; display:flex; align-items:flex-end; justify-content:space-between}
 .cast-pop{position:relative; display:flex; align-items:flex-end; gap:10px; padding:0 10px 4px; animation:castIn .3s cubic-bezier(.2,1.4,.5,1) both}
 @keyframes castIn{from{opacity:0; transform:translateY(40px) scale(.94)} to{opacity:1;transform:none}}
-.cast-pop img{height:clamp(150px,34vh,300px); width:auto; filter:drop-shadow(0 12px 26px rgba(0,0,0,.6))}
+.cast-pop img{height:clamp(120px,26vh,248px); width:auto; filter:drop-shadow(0 12px 26px rgba(0,0,0,.6))}
 .cast-pop .say{
   order:-1; align-self:center; max-width:min(62vw,430px); position:relative; margin-bottom:26px;
   background:rgba(246,241,227,.96); color:#1d1a16; border-radius:14px; padding:11px 15px; font-size:clamp(13px,3.1vw,17px); font-weight:700;
