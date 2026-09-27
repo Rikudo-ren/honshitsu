@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+  <meta name="theme-color" content="#3E4A3C">
+  <meta name="description" content="✝本質✝ OVERFLOW — 偏差値60の教室から漏れ出す本質を、60秒で刻むスコアアタック。">
+  <title>✝本質✝ OVERFLOW ―偏差値60の教室から―</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body data-state="title">
+  <main id="app" aria-label="✝本質✝ OVERFLOW">
+    <section id="gameShell" class="game-shell">
+      <canvas id="backgroundCanvas" aria-hidden="true"></canvas>
+      <canvas id="gameCanvas" aria-label="カードが流れるゲーム画面"></canvas>
+      <canvas id="fxCanvas" aria-hidden="true"></canvas>
+
+      <div id="brandCorner" class="brand-corner">北棟 理数科 B組 <span>NO.60</span></div>
+      <button id="muteButton" class="mute-button" type="button" aria-label="音声の切り替え">音 ON</button>
+
+      <section id="titleScreen" class="screen title-screen is-visible">
+        <div class="title-copy">
+          <div class="title-kicker">桐葉高校｜北棟・理数科 B組</div>
+          <h1 class="logo" aria-label="本質 OVERFLOW"><span>✝</span><span>本</span><span>質</span><span>✝</span></h1>
+          <div class="overflow-word">OVERFLOW</div>
+          <p class="title-sub">― 偏差値60の教室から ―</p>
+          <p class="title-rule">紙に刻め。は？で弾け。<b>60秒。</b></p>
+          <button id="startButton" class="start-button" type="button"><span>TAP TO</span> 漏出開始 <i>✝</i></button>
+          <div class="title-meta"><span id="titleHigh">BEST 0000</span><span>DAILY <b id="dailySeed">----</b></span></div>
+        </div>
+        <div class="title-cast" aria-label="登場人物">
+          <div class="cast-card cast-ryoma"><img src="chr_ryoma_01_tsuujou_no_bg.png" alt="両馬二郎"><span>両馬</span></div>
+          <div class="cast-card cast-mie"><img src="chr_mie_01_reishou_no_bg.png" alt="三重県臣"><span>三重</span></div>
+          <div class="cast-card cast-terachi"><img src="chr_terachi_01_nemusou_no_bg.png" alt="寺地星"><span>寺地</span></div>
+        </div>
+        <div class="title-missions"><small>本日の軽い課題</small><div id="titleMissions"></div></div>
+      </section>
+
+      <section id="tutorialScreen" class="screen tutorial-screen">
+        <div class="tutorial-card-stage">
+          <div class="tutorial-paper tutorial-good"><b>✝</b><span>本質</span></div>
+          <div class="tutorial-paper tutorial-bad"><b>?</b><span>亜本質</span></div>
+          <div class="tutorial-stroke">━━━✝━━━</div>
+        </div>
+        <div class="tutorial-actions"><div><kbd>Z</kbd><strong>刻む</strong><small>タップ</small></div><div><kbd>X</kbd><strong>は？</strong><small>下スワイプ</small></div></div>
+        <div id="countNumber" class="count-number"></div>
+        <div class="tutorial-skip">タップでスキップ　／　<em id="tutorialTimer">4</em></div>
+      </section>
+
+      <section id="hud" class="hud">
+        <div class="hud-topline"><div class="hud-rank"><span>偏差値</span><strong id="rankValue">60</strong><small id="rankName">非✝本質✝</small></div><div class="hud-time"><small>残り時間</small><strong id="timeValue">60:00</strong></div><div class="hud-combo"><small>COMBO</small><strong id="comboValue">0</strong><span id="multiplierValue">×1.0</span></div></div>
+        <div class="hud-score"><span>SCORE</span><strong id="scoreValue">0</strong></div>
+        <div class="live-missions" id="missionLive"><span>は？ 0/20</span><span>誤爆 0</span><span>零 0s</span></div>
+        <div id="guardValue" class="guard-value"></div>
+      </section>
+
+      <div id="skillBanner" class="skill-banner"><div class="skill-icon"><img alt=""></div><div><small>SKILL TRIGGER</small><strong class="skill-name">両馬二郎</strong><b class="skill-line">これまじ✝本質✝</b></div></div>
+      <div id="overflowLayer" class="overflow-layer"><div class="shockwave"></div><div class="overflow-copy"><small>手動発動</small><b>OVERFLOW</b><span id="overflowClock">7.00</span></div><div class="overflow-peek">地面は忘れない</div></div>
+
+      <div id="playControls" class="play-controls">
+        <button id="rejectButton" class="action-button reject-action" type="button" onclick="window.honshitsuGame?.processCard('reject')"><span class="action-symbol">は？</span><small>X / →　弾く</small></button>
+        <div class="overflow-control"><div class="overflow-label"><span>OVERFLOW</span><b id="overflowValue">0%</b></div><div class="overflow-track"><i id="overflowFill"></i></div><button id="overflowButton" class="overflow-button" type="button" disabled>✝ <span>Space</span></button></div>
+        <button id="carveButton" class="action-button carve-action" type="button" onclick="window.honshitsuGame?.processCard('carve')"><span class="action-symbol">✝</span><small>Z / ←　刻む</small></button>
+      </div>
+
+      <section id="resultScreen" class="screen result-screen" data-rank="60">
+        <div class="result-character"><img src="chr_terachi_01_nemusou_no_bg.png" alt="寺地星が紙に偏差値を書く"></div>
+        <div class="result-backdrop"><div class="result-fluorescent"></div><div class="result-stars"></div></div>
+        <div class="result-paper"><div class="result-kicker">配信終了　／　寺地星のカス配信</div><div class="result-line"></div><div class="result-rank-label">偏差値</div><div id="resultRank" class="result-rank">60</div><div id="resultTitle" class="result-title">非✝本質✝</div><div class="result-stats"><div><small>SCORE</small><strong id="resultScore">0</strong></div><div><small>RUN</small><strong id="resultCombo">コンボ最高 0</strong></div><div><small>CHECK</small><strong id="resultErrors">誤爆 0回</strong></div></div><div id="resultBest" class="result-best"></div><div class="stamp">✝本質✝<span>認定</span></div></div>
+        <div class="result-thread"><div class="thread-head">匿名掲示板｜地形図好きスレ</div><p id="resultThread"></p><button id="resultCopyButton" type="button">レスをコピー</button></div>
+        <div class="result-missions" id="missionResult"></div>
+        <div class="result-actions"><button id="againButton" class="primary-button" type="button">もう一回</button><button id="collectionButton" class="secondary-button" type="button">語録コレクション</button></div>
+        <div class="mie-omega">三重「は？」</div>
+      </section>
+
+      <div id="collectionModal" class="modal" role="dialog" aria-modal="true" aria-label="語録コレクション"><div class="modal-panel"><div class="modal-title"><div><small>ARCHIVE / WRITTEN IN THE ORIGINAL</small><h2>語録コレクション</h2></div><button id="closeCollection" type="button">閉じる</button></div><p class="modal-intro">寺地の紙に載ったもの。原作の言い回しだけを、少しずつ。</p><div id="collectionCount" class="collection-count">0 / 130</div><div id="collectionGrid" class="collection-grid"></div></div></div>
+
+      <aside id="debugPanel" class="debug-panel" hidden><b>DEBUG / daily seed</b><span id="debugState">TITLE</span><span id="debugFps">60 fps</span><label>即ランク <input id="debugRank" type="range" min="60" max="100" value="60"></label><button id="debugOverflow" type="button">ゲージ満タン</button><button id="debugSpawnGiant" type="button">原✝本質✝</button><button id="debugEnd" type="button">即 TIMEUP</button></aside>
+    </section>
+  </main>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

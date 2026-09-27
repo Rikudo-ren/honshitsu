@@ -1,0 +1,1190 @@
+[
+  {
+    "id": "q001",
+    "text": "これまじ✝本質✝",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "一年生編 第一章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q002",
+    "text": "本質は降りてくるもの",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "一年生編 第一章",
+    "weight": 2,
+    "unlocked": true
+  },
+  {
+    "id": "q003",
+    "text": "文法の✝本質✝を超えろ",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "一年生編 第一章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q004",
+    "text": "✝は人類共通の記号だ",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "一年生編 第一章",
+    "weight": 2,
+    "unlocked": true
+  },
+  {
+    "id": "q005",
+    "text": "自己対話は✝本質✝",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "一年生編 第二章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q006",
+    "text": "味噌が違う",
+    "type": "typehonshitsu",
+    "speaker": "勝也",
+    "source": "一年生編 第二章",
+    "weight": 2,
+    "unlocked": true
+  },
+  {
+    "id": "q007",
+    "text": "朝飯は地殻変動で決まる",
+    "type": "typehonshitsu",
+    "speaker": "伊崎",
+    "source": "一年生編 第二章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q008",
+    "text": "面白い接続だな",
+    "type": "typehonshitsu",
+    "speaker": "寺地",
+    "source": "一年生編 第二章",
+    "weight": 2,
+    "unlocked": true
+  },
+  {
+    "id": "q009",
+    "text": "地図を見て本気で感動する",
+    "type": "typehonshitsu",
+    "speaker": "零",
+    "source": "一年生編 第二章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q010",
+    "text": "本質は向かうものじゃない",
+    "type": "typehonshitsu",
+    "speaker": "寺地",
+    "source": "一年生編 第三章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q011",
+    "text": "良い山はある",
+    "type": "typehonshitsu",
+    "speaker": "寺地",
+    "source": "一年生編 第三章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q012",
+    "text": "必ず福来る",
+    "type": "typehonshitsu",
+    "speaker": "寺地",
+    "source": "一年生編 第三章",
+    "weight": 2,
+    "unlocked": true
+  },
+  {
+    "id": "q013",
+    "text": "本質の入口は広い",
+    "type": "typehonshitsu",
+    "speaker": "寺地",
+    "source": "一年生編 第三章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q014",
+    "text": "夜道に本質がある",
+    "type": "typehonshitsu",
+    "speaker": "寺地",
+    "source": "一年生編 第三章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q015",
+    "text": "正しいことより本当のこと",
+    "type": "typehonshitsu",
+    "speaker": "零",
+    "source": "一年生編 第三章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q016",
+    "text": "笑われた数だけ近づく",
+    "type": "typehonshitsu",
+    "speaker": "名無し",
+    "source": "一年生編 第三章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q017",
+    "text": "コーンスープはない方が本質",
+    "type": "typehonshitsu",
+    "speaker": "砂糖",
+    "source": "一年生編 第三章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q018",
+    "text": "雨の前の匂いを知る",
+    "type": "typehonshitsu",
+    "speaker": "名無し",
+    "source": "一年生編 第三章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q019",
+    "text": "三重県臣について考えよ",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "一年生編 第三章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q020",
+    "text": "本質は意味のないものの中",
+    "type": "typehonshitsu",
+    "speaker": "寺地",
+    "source": "一年生編 第八章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q021",
+    "text": "あそこに全部ある",
+    "type": "typehonshitsu",
+    "speaker": "名無し",
+    "source": "一年生編 第八章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q022",
+    "text": "地形図の向こう側が見える",
+    "type": "typehonshitsu",
+    "speaker": "名無し",
+    "source": "一年生編 第七章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q023",
+    "text": "本質は答えが出たら終わる",
+    "type": "typehonshitsu",
+    "speaker": "寺地",
+    "source": "一年生編 第八章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q024",
+    "text": "終わるの嫌だな",
+    "type": "typehonshitsu",
+    "speaker": "寺地",
+    "source": "一年生編 第八章",
+    "weight": 2,
+    "unlocked": true
+  },
+  {
+    "id": "q025",
+    "text": "数学は全部繋がっている",
+    "type": "typehonshitsu",
+    "speaker": "零",
+    "source": "一年生編 第九章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q026",
+    "text": "地理じゃなくて人間学",
+    "type": "typehonshitsu",
+    "speaker": "零",
+    "source": "一年生編 第九章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q027",
+    "text": "地形の話は時間の話",
+    "type": "typehonshitsu",
+    "speaker": "名無し",
+    "source": "一年生編 第十章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q028",
+    "text": "同じ地図が違う地図になる",
+    "type": "typehonshitsu",
+    "speaker": "名無し",
+    "source": "一年生編 第十二章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q029",
+    "text": "見る側が変わるから",
+    "type": "typehonshitsu",
+    "speaker": "零",
+    "source": "一年生編 第十二章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q030",
+    "text": "偶然か✝本質✝か決められない",
+    "type": "typehonshitsu",
+    "speaker": "零",
+    "source": "一年生編 第十二章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q031",
+    "text": "説明できたら✝本質✝じゃない",
+    "type": "typehonshitsu",
+    "speaker": "砂糖",
+    "source": "一年生編 第十三章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q032",
+    "text": "ランキングなき重みはある",
+    "type": "typehonshitsu",
+    "speaker": "零",
+    "source": "一年生編 第十三章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q033",
+    "text": "枠が広がっただけ",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "一年生編 第十四章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q034",
+    "text": "外に出ても消えない",
+    "type": "typehonshitsu",
+    "speaker": "零",
+    "source": "一年生編 第十四章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q035",
+    "text": "何も劇的なことは起きない",
+    "type": "typehonshitsu",
+    "speaker": "名無し",
+    "source": "一年生編 第十五章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q036",
+    "text": "でも、来年もある",
+    "type": "typehonshitsu",
+    "speaker": "名無し",
+    "source": "一年生編 第十五章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q037",
+    "text": "✝本質✝は止まらない",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "二年生編 序",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q038",
+    "text": "✝本質✝は誰のものでもない",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "二年生編 第一章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q039",
+    "text": "元からあった",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "二年生編 第一章",
+    "weight": 2,
+    "unlocked": true
+  },
+  {
+    "id": "q040",
+    "text": "恋愛の✝本質✝は不明",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "二年生編 第一章",
+    "weight": 2,
+    "unlocked": true
+  },
+  {
+    "id": "q041",
+    "text": "理解できないものは面白い",
+    "type": "typehonshitsu",
+    "speaker": "零",
+    "source": "二年生編 第一章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q042",
+    "text": "恋愛は理論を壊す",
+    "type": "typehonshitsu",
+    "speaker": "櫻",
+    "source": "二年生編 第三章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q043",
+    "text": "理論のない状態で恋をする",
+    "type": "typehonshitsu",
+    "speaker": "零",
+    "source": "二年生編 第三章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q044",
+    "text": "面白いでいいんだよ",
+    "type": "typehonshitsu",
+    "speaker": "三峰",
+    "source": "二年生編 第八章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q045",
+    "text": "意味わかんないけど安心する",
+    "type": "typehonshitsu",
+    "speaker": "内藤",
+    "source": "二年生編 第八章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q046",
+    "text": "嬉しいのが✝本質✝",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "二年生編 第八章",
+    "weight": 2,
+    "unlocked": true
+  },
+  {
+    "id": "q047",
+    "text": "地図が追いつかない地面",
+    "type": "typehonshitsu",
+    "speaker": "零",
+    "source": "二年生編 第九章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q048",
+    "text": "地面は記憶してる",
+    "type": "typehonshitsu",
+    "speaker": "勝也",
+    "source": "二年生編 第九章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q049",
+    "text": "地面は忘れない",
+    "type": "typehonshitsu",
+    "speaker": "勝也",
+    "source": "二年生編 第九章",
+    "weight": 6,
+    "unlocked": true
+  },
+  {
+    "id": "q050",
+    "text": "地図は地面の一部を切り取る",
+    "type": "typehonshitsu",
+    "speaker": "勝也",
+    "source": "二年生編 第九章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q051",
+    "text": "片思いは成就せず完了する",
+    "type": "typehonshitsu",
+    "speaker": "召野",
+    "source": "二年生編 第十章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q052",
+    "text": "返事はいりません",
+    "type": "typehonshitsu",
+    "speaker": "召野",
+    "source": "二年生編 第十章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q053",
+    "text": "自分が完了する",
+    "type": "typehonshitsu",
+    "speaker": "召野",
+    "source": "二年生編 第十章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q054",
+    "text": "努力が自分のためになる",
+    "type": "typehonshitsu",
+    "speaker": "召野",
+    "source": "三年生編 序",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q055",
+    "text": "普通のことの中にある",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "二年生編 第十一章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q056",
+    "text": "否定もしない",
+    "type": "typehonshitsu",
+    "speaker": "三重",
+    "source": "二年生編 第十一章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q057",
+    "text": "冷笑の向こう側にある",
+    "type": "typehonshitsu",
+    "speaker": "三重",
+    "source": "二年生編 第十一章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q058",
+    "text": "矛盾してても本当はある",
+    "type": "typehonshitsu",
+    "speaker": "寺地",
+    "source": "二年生編 第十二章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q059",
+    "text": "安心することが本質かも",
+    "type": "typehonshitsu",
+    "speaker": "内藤",
+    "source": "二年生編 第十二章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q060",
+    "text": "✝本質✝は平等である",
+    "type": "typehonshitsu",
+    "speaker": "寺地",
+    "source": "三年生編 第二章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q061",
+    "text": "見えないけどある",
+    "type": "typehonshitsu",
+    "speaker": "零",
+    "source": "三年生編 第三章",
+    "weight": 6,
+    "unlocked": true
+  },
+  {
+    "id": "q062",
+    "text": "等高線みたいなもの",
+    "type": "typehonshitsu",
+    "speaker": "零",
+    "source": "三年生編 第三章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q063",
+    "text": "サインを読むと存在がわかる",
+    "type": "typehonshitsu",
+    "speaker": "零",
+    "source": "三年生編 第三章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q064",
+    "text": "加工なしの✝本質✝",
+    "type": "typehonshitsu",
+    "speaker": "寺地",
+    "source": "三年生編 第三章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q065",
+    "text": "全部本当のことだ",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "三年生編 第五章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q066",
+    "text": "本質は数じゃなかった",
+    "type": "typehonshitsu",
+    "speaker": "寺地",
+    "source": "三年生編 第五章",
+    "weight": 6,
+    "unlocked": true
+  },
+  {
+    "id": "q067",
+    "text": "ちょうどいい距離がある",
+    "type": "typehonshitsu",
+    "speaker": "寺地",
+    "source": "三年生編 第五章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q068",
+    "text": "変わらないことが本質",
+    "type": "typehonshitsu",
+    "speaker": "名無し",
+    "source": "三年生編 第五章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q069",
+    "text": "残り時間が少ないほど密度が上がる",
+    "type": "typehonshitsu",
+    "speaker": "名無し",
+    "source": "三年生編 第五章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q070",
+    "text": "等高線の向こうに人がいる",
+    "type": "typehonshitsu",
+    "speaker": "名無し",
+    "source": "三年生編 第五章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q071",
+    "text": "三年待てる教師がいる",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "三年生編 第一章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q072",
+    "text": "見る側が変わるのを待つ",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "三年生編 第一章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q073",
+    "text": "普通にいい話が本質",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "三年生編 序",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q074",
+    "text": "三重のは？は歯止め",
+    "type": "typehonshitsu",
+    "speaker": "寺地",
+    "source": "三年生編 第二章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q075",
+    "text": "何もないけどある",
+    "type": "typehonshitsu",
+    "speaker": "寺地",
+    "source": "三年生編 第二章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q076",
+    "text": "手の届かないことに宿る",
+    "type": "typehonshitsu",
+    "speaker": "召野",
+    "source": "三年生編 第二章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q077",
+    "text": "本当のことをやった",
+    "type": "typehonshitsu",
+    "speaker": "寺地",
+    "source": "三年生編 第二章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q078",
+    "text": "普通のことが一番大事",
+    "type": "typehonshitsu",
+    "speaker": "零",
+    "source": "三年生編 第四章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q079",
+    "text": "理屈じゃないものが大事",
+    "type": "typehonshitsu",
+    "speaker": "零",
+    "source": "三年生編 第四章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q080",
+    "text": "✝本質✝だけが人生じゃない",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "三年生編 第四章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q081",
+    "text": "業者が補充しただけ",
+    "type": "a_honshitsu",
+    "speaker": "三重",
+    "source": "一年生編 第十二章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q082",
+    "text": "時系列が一致してるだけ",
+    "type": "a_honshitsu",
+    "speaker": "零",
+    "source": "一年生編 第十二章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q083",
+    "text": "因果関係はない",
+    "type": "a_honshitsu",
+    "speaker": "三重",
+    "source": "一年生編 第十二章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q084",
+    "text": "パターン認識してるだけだ",
+    "type": "a_honshitsu",
+    "speaker": "三重",
+    "source": "一年生編 第九章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q085",
+    "text": "効率よくやろう",
+    "type": "a_honshitsu",
+    "speaker": "名無し",
+    "source": "二年生編 第七章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q086",
+    "text": "ハワイは手段だろ",
+    "type": "a_honshitsu",
+    "speaker": "両馬",
+    "source": "二年生編 第七章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q087",
+    "text": "説明してよ",
+    "type": "a_honshitsu",
+    "speaker": "名無し",
+    "source": "一年生編 第二章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q088",
+    "text": "日本語やめろ",
+    "type": "a_honshitsu",
+    "speaker": "三重",
+    "source": "一年生編 第一章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q089",
+    "text": "わからないのに選ぶのか",
+    "type": "a_honshitsu",
+    "speaker": "三重",
+    "source": "一年生編 第九章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q090",
+    "text": "クレープは亜✝本質✝",
+    "type": "a_honshitsu",
+    "speaker": "倉石",
+    "source": "三年生編 第二章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q091",
+    "text": "笹かまぼこは宮城だろ",
+    "type": "a_honshitsu",
+    "speaker": "寺地",
+    "source": "二年生編 第十二章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q092",
+    "text": "死ぬな",
+    "type": "a_honshitsu",
+    "speaker": "三重",
+    "source": "二年生編 第七章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q093",
+    "text": "見ればわかるだろ",
+    "type": "a_honshitsu",
+    "speaker": "砂糖",
+    "source": "三年生編 第一章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q094",
+    "text": "うるさい",
+    "type": "a_honshitsu",
+    "speaker": "砂糖",
+    "source": "一年生編 第一章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q095",
+    "text": "は？",
+    "type": "a_honshitsu",
+    "speaker": "三重",
+    "source": "一年生編 第一章",
+    "weight": 6,
+    "unlocked": true
+  },
+  {
+    "id": "q096",
+    "text": "やめろ",
+    "type": "a_honshitsu",
+    "speaker": "三重",
+    "source": "一年生編 第一章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q097",
+    "text": "見てない",
+    "type": "a_honshitsu",
+    "speaker": "砂糖",
+    "source": "一年生編 第二章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q098",
+    "text": "事実を述べただけ",
+    "type": "a_honshitsu",
+    "speaker": "砂糖",
+    "source": "一年生編 第三章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q099",
+    "text": "普通にやっただけ",
+    "type": "a_honshitsu",
+    "speaker": "三重",
+    "source": "三年生編 第四章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q100",
+    "text": "一人でも千人でも本質",
+    "type": "typehonshitsu",
+    "speaker": "名無し",
+    "source": "二年生編 第十二章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q101",
+    "text": "フェイカツはフェイカツだ",
+    "type": "fake_katsu",
+    "speaker": "両馬",
+    "source": "三年生編 序",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q102",
+    "text": "偏差値は等高線の一本",
+    "type": "fake_katsu",
+    "speaker": "両馬",
+    "source": "三年生編 序",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q103",
+    "text": "地面を見ろ",
+    "type": "fake_katsu",
+    "speaker": "両馬",
+    "source": "一年生編 第一章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q104",
+    "text": "受験生よ、来い",
+    "type": "fake_katsu",
+    "speaker": "両馬",
+    "source": "三年生編 序",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q105",
+    "text": "合格祈願ではなく本質祈願",
+    "type": "fake_katsu",
+    "speaker": "両馬",
+    "source": "三年生編 序",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q106",
+    "text": "勉強しろ",
+    "type": "fake_katsu",
+    "speaker": "両馬",
+    "source": "三年生編 序",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q107",
+    "text": "地面の歴史から読め",
+    "type": "fake_katsu",
+    "speaker": "両馬",
+    "source": "二年生編 第七章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q108",
+    "text": "負けると人間はまともになる",
+    "type": "fake_katsu",
+    "speaker": "両馬",
+    "source": "三年生編 第四章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q109",
+    "text": "✝本質✝の聖地巡礼",
+    "type": "fake_katsu",
+    "speaker": "両馬",
+    "source": "二年生編 第九章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q110",
+    "text": "等高線が人間に見える",
+    "type": "fake_katsu",
+    "speaker": "両馬",
+    "source": "三年生編 第一章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q111",
+    "text": "窓の外は見ていない",
+    "type": "noise",
+    "speaker": "砂糖",
+    "source": "一年生編 第五章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q112",
+    "text": "業者が忘れているだけ",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "一年生編 序",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q113",
+    "text": "三重県の名物は笹かまぼこ",
+    "type": "noise",
+    "speaker": "両馬",
+    "source": "二年生編 第十二章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q114",
+    "text": "告白されたらOKする",
+    "type": "noise",
+    "speaker": "召野",
+    "source": "二年生編 第二章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q115",
+    "text": "恋愛は三ヶ月で半減する",
+    "type": "noise",
+    "speaker": "櫻",
+    "source": "一年生編 第六章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q116",
+    "text": "地形図はただの線だ",
+    "type": "noise",
+    "speaker": "名無し",
+    "source": "一年生編 第十二章",
+    "weight": 2,
+    "unlocked": true
+  },
+  {
+    "id": "q117",
+    "text": "本質は机の上にはない",
+    "type": "typehonshitsu",
+    "speaker": "名無し",
+    "source": "三年生編 第五章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q118",
+    "text": "コーンスープの不在",
+    "type": "rare",
+    "speaker": "砂糖",
+    "source": "一年生編 序",
+    "weight": 2,
+    "unlocked": true
+  },
+  {
+    "id": "q119",
+    "text": "結婚指輪は封印の刻印",
+    "type": "rare",
+    "speaker": "召野",
+    "source": "二年生編 第二章",
+    "weight": 2,
+    "unlocked": true
+  },
+  {
+    "id": "q120",
+    "text": "原✝本質✝の器",
+    "type": "rare",
+    "speaker": "倉石",
+    "source": "二年生編 第四章",
+    "weight": 2,
+    "unlocked": true
+  },
+  {
+    "id": "q121",
+    "text": "前-原✝本質✝",
+    "type": "rare",
+    "speaker": "倉石",
+    "source": "三年生編 第二章",
+    "weight": 1,
+    "unlocked": true
+  },
+  {
+    "id": "q122",
+    "text": "見えないけど、あるんだよ",
+    "type": "typehonshitsu",
+    "speaker": "両馬",
+    "source": "三年生編 第三章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q123",
+    "text": "同じものが違って見える",
+    "type": "typehonshitsu",
+    "speaker": "内藤",
+    "source": "二年生編 第八章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q124",
+    "text": "面白い集団なんだよ",
+    "type": "typehonshitsu",
+    "speaker": "三峰",
+    "source": "三年生編 第四章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q125",
+    "text": "俺はペットボトルくらい",
+    "type": "a_honshitsu",
+    "speaker": "寺地",
+    "source": "二年生編 第十二章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q126",
+    "text": "心は一筋、体は別",
+    "type": "noise",
+    "speaker": "召野",
+    "source": "三年生編 序",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q127",
+    "text": "たまたま余った席だ",
+    "type": "noise",
+    "speaker": "砂糖",
+    "source": "二年生編 序",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q128",
+    "text": "家が近いから",
+    "type": "noise",
+    "speaker": "零",
+    "source": "一年生編 序",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q129",
+    "text": "ずっと見てた。三年間",
+    "type": "typehonshitsu",
+    "speaker": "名無し",
+    "source": "三年生編 第五章",
+    "weight": 5,
+    "unlocked": true
+  },
+  {
+    "id": "q130",
+    "text": "書き続けてくれ",
+    "type": "typehonshitsu",
+    "speaker": "名無し",
+    "source": "三年生編 第五章",
+    "weight": 4,
+    "unlocked": true
+  },
+  {
+    "id": "q131",
+    "text": "俺が司会やりたい",
+    "type": "typehonshitsu",
+    "speaker": "伊豆見",
+    "source": "一年生編 第十三章",
+    "weight": 3,
+    "unlocked": true
+  },
+  {
+    "id": "q132",
+    "text": "自分のためにね",
+    "type": "typehonshitsu",
+    "speaker": "二見",
+    "source": "二年生編 第五章",
+    "weight": 3,
+    "unlocked": true
+  }
+]
