@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>✝本質✝ RUSH — 偏差値60の教室から</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="screen-title" class="screen">
+  <div class="logo">
+    <div class="cross">✝</div>
+    <h1>本質<span class="rush">RUSH</span></h1>
+    <p class="sub">偏差値60の教室から✝本質✝が漏れ出している件について</p>
+    <p class="sub2">— 60秒スコアアタック・アクション —</p>
+  </div>
+  <div class="menu">
+    <button id="btn-start" class="big">▶ ゲーム開始</button>
+    <button id="btn-mute">🔊</button>
+  </div>
+  <div class="howto">
+    <p><b>遊び方</b>：←→/AD or マウスで移動・自動連射。SPACE / タップで✝本質解放✝（ゲージ100%時）。</p>
+    <p>偏差値ブロックを撃ち、<span class="gold">✝本質✝</span>でゲージ貯め、<span class="gold">コーンスープ</span>で+2秒。</p>
+    <p>敵に当たると<b class="red">-3秒＆コンボ消滅</b>。20秒・45秒で強敵（キャラ顔面）出現、撃破で+800＆+3秒。</p>
+    <p>連続撃破でコンボ倍率最大×5。60秒でハイスコアを競え。</p>
+  </div>
+</div>
+
+<div id="screen-select" class="screen" style="display:none">
+  <h2 class="shead">キャラクター選択</h2>
+  <div id="cards" class="cards"></div>
+  <div class="bar">
+    <button id="btn-back">← 戻る</button>
+    <button id="diff">難易度：通常</button>
+    <button id="btn-play" class="big">出撃 ✝</button>
+  </div>
+  <div class="rankbox small">
+    <h3>ハイスコア</h3>
+    <ol id="ranklist-sel"></ol>
+  </div>
+</div>
+
+<div id="screen-game" class="screen" style="display:none">
+  <div class="gamewrap">
+    <div class="hud">
+      <div class="hud-left">
+        <div class="score"><span>SCORE</span><b id="hud-score">0</b></div>
+        <div id="hud-combo" class="combo"></div>
+      </div>
+      <div class="hud-right">
+        <div class="time"><span>TIME</span><b id="hud-time">60.0</b></div>
+        <button id="pausebtn">⏸</button>
+      </div>
+    </div>
+    <canvas id="cv" width="480" height="640"></canvas>
+    <div id="hud-special" class="special">本質ゲージ 0%</div>
+    <div class="gaugebar"><div id="hud-gauge"></div></div>
+  </div>
+</div>
+
+<div id="screen-result" class="screen" style="display:none">
+  <h2 class="shead">— 時間切れ —</h2>
+  <div class="result">
+    <div class="rs-label">SCORE</div>
+    <div id="res-score" class="rs-score">0</div>
+    <div class="rs-grid">
+      <div><span>撃破数</span><b id="res-kills">0</b></div>
+      <div><span>最大コンボ</span><b id="res-combo">×1</b></div>
+      <div><span>ランキング</span><b id="res-rank">-</b></div>
+    </div>
+  </div>
+  <div class="rankbox">
+    <h3>ハイスコア</h3>
+    <ol id="ranklist"></ol>
+  </div>
+  <div class="bar">
+    <button id="btn-reselect">キャラ変更</button>
+    <button id="btn-retry" class="big">もう一度 ✝</button>
+  </div>
+</div>
+
+<script src="logic.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
